@@ -58,9 +58,28 @@ html {
     align-items: center;
 }
 
+.line{
+display: flex;
+height: 3px;
+width: 1500px;
+margin: 20px;
+background-color: #000000;
+}
+
+
 .coverphoto-sizer{
     width: 100vh;
+    height: 100%;
     padding: 5px;
+}
+
+.white-text{
+    color: #ffffff;
+}
+
+.coverphoto-rectangle{
+    width: 100%;
+    background-color:#000000
 }
 
 .logo-container{
