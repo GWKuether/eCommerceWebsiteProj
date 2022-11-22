@@ -19,6 +19,12 @@ html {
     font-size: x-large;
     padding-left: 1rem;
 }
+
+.font-size-med{
+    font-size: medium;
+
+
+}
 .navbar-line{
     list-style-type: none;
     margin: 0;
@@ -85,6 +91,15 @@ html {
     color: #ffffff;
 }
 
+.orange-text{
+    color: #BF7631;
+}
+
+.orange-text:hover{
+    cursor: pointer;
+    color: #000000;
+}
+
 .coverphoto-rectangle{
     width: 100%;
     background-color:#000000
@@ -101,15 +116,58 @@ html {
     justify-content: center;
 }
 
-.about-us-image-sizer{
+.about-us-image-2-sizer{
     width: 200px;
     padding: 4px;
     align-self: flex-end;
 }
 
+.about-us-image-1-sizer{
+    width: 400px;
+    height: 600px;
+    padding: 4px;
+}
+
 .about-us-container{
-    height: 400px;
-    display: flex;
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    justify-content: space-evenly;
+  }
+
+.about-us-grid{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.item-1{
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+
+.item-1-font-sizer{
+    width: 60rem;
+}
+
+.item-2{
+    grid-column: 3;
+    grid-row: 1 / span 2;
+}
+
+.item-3{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.item-4{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.item-5{
+    grid-column: 1 / span 3;
+    grid-row: 3;
 }
 
 .about-us-inner-container{
@@ -129,8 +187,19 @@ html {
     padding: 4px;
 }
 
+
 .products{
-    display: flex;
+    display: grid;
+    grid-template-areas: 
+    "top-l top top-r"
+    "mid-l mid mid-r"
+    "bot-l bot bot-r";
+    justify-content: space-around;
+    grid-gap: 5rem;
+}
+
+.product-paragraph{
+    width: 12rem;
 }
 
 .product-container-1{
@@ -145,6 +214,14 @@ html {
     display: flex;
 }
 
+.learn-more-button{
+    width: 100px;
+    padding: 0;
+    border: none;
+    background: none;
+    align-self: self-start;
+}
+
 .contact-us-container{
     height: 300px;
     padding-left: 300px;
@@ -155,8 +232,6 @@ html {
     justify-content: center;
 }
 
-.email-text-area{
-}
 
 .message-text-area{
     height: 100px;
