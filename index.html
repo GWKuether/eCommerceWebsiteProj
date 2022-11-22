@@ -7,14 +7,14 @@
         <style>body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}</style>
     </head>
     <body>
-        <section>
+        <section id="home">
             <div class="searchbar-container">
                 <nav>
                     <ul class="navbar-line"> 
-                        <li class="navbar"><a class="navbar-format font-size-large" href="#">HOME</a></li>
-                        <li class="navbar"><a class="navbar-format font-size-large" href="#">ABOUT</a></li>
-                        <li class="navbar"><a class="navbar-format font-size-large" href="#">PRODUCTS</a></li>
-                        <li class="navbar"><a class="navbar-format font-size-large" href="#">CONTACT</a></li>            
+                        <li class="navbar"><a class="navbar-format font-size-large" href="#home">HOME</a></li>
+                        <li class="navbar"><a class="navbar-format font-size-large" href="#about">ABOUT</a></li>
+                        <li class="navbar"><a class="navbar-format font-size-large" href="#products">PRODUCTS</a></li>
+                        <li class="navbar"><a class="navbar-format font-size-large" href="#contact">CONTACT</a></li>            
                     </ul>
                 </nav>
                 <div class="logo-container">
@@ -27,7 +27,7 @@
                 <p>CART(0)</p>
             </div>
             <br>
-            <div class="line"></div>
+            <div class="large-line"></div>
         </section>
         
         <section>
@@ -38,24 +38,26 @@
             </div>
         </section>
         <br>
-        <section>
-            <h1>ABOUT US</h1>
+        <section id="about">
+            <h1 class="font-size-x-large">ABOUT US</h1>
+            <div class="small-line"></div>
             <div class="about-us-container" >
                 <img class="about-us-image-sizer" src="assets\UX-HTML-CSS\Vase_Dame_2048x2048.jpg" alt="Vase">
-                <div>
+                <div class="about-us-inner-container">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Facilisis mauris sit amet massa. Senectus et netus et malesuada fames ac turpis egestas maecenas. Odio aenean sed adipiscing diam donec adipiscing tristique risus nec. Sagittis id consectetur purus ut faucibus. Elit duis tristique sollicitudin nibh sit amet commodo. </p>
                     <br>
-                    <p>Nulla porttitor massa id neque aliquam vestibulum morbi. Facilisi nullam vehicula ipsum a arcu cursus vitae congue. Nam libero justo laoreet sit amet cursus sit amet dictum. Tristique magna sit amet purus gravida quis. Velit euismod in pellentesque massa placerat. In ante metus dictum at tempor commodo. Libero nunc consequat interdum varius sit amet mattis. Egestas sed sed risus pretium quam vulputate dignissim. Diam phasellus vestibulum lorem sed risus. Cursus sit amet dictum sit amet justo donec enim.</p>
+                    <p class="about-us-paragraph-sizer">Nulla porttitor massa id neque aliquam vestibulum morbi. Facilisi nullam vehicula ipsum a arcu cursus vitae congue. Nam libero justo laoreet sit amet cursus sit amet dictum. Tristique magna sit amet purus gravida quis. Velit euismod in pellentesque massa placerat. In ante metus dictum at tempor commodo. Libero nunc consequat interdum varius sit amet mattis. Egestas sed sed risus pretium quam vulputate dignissim. Diam phasellus vestibulum lorem sed risus. Cursus sit amet dictum sit amet justo donec enim.</p>
                     <br>
-                    <p>Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo quis imperdiet massa. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean. Nullam ac tortor vitae purus</p>
+                    <p class="about-us-paragraph-sizer">Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo quis imperdiet massa. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean. Nullam ac tortor vitae purus</p>
                 </div>
                     <img class="about-us-image-sizer" src="assets\UX-HTML-CSS\Cylinder_unglazed3_2048x2048.jpg" alt="Flowers">
             </div>
         </section>
         <br>
-        <section>
-            <div>
-                <h1>OUR PRODUCTS</h1>
+        <section id=products>
+            <h1 class="font-size-x-large">OUR PRODUCTS</h1>
+            <div class="small-line"></div>
+            <div class="products">
                 <div class="product-container-1">
                     <div>
                         <img class="product-image-sizer" src="assets\UX-HTML-CSS\tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="Mundo Bowls">
@@ -137,13 +139,19 @@
             </div>
         </section>
         <br>
-        <section>
-            <h1>CONTACT US</h1>
+        <section id="contact">
+            <h1 class="font-size-x-large">CONTACT US</h1>
+            <div class="small-line"></div>
             <div class="contact-us-container">
-                <h6>EMAIL</h6>
+                <h6 class="font-size-large">EMAIL</h6>
+                <br>
                 <input type="text" class="email-text-area">
-                <h6>MESSAGE</h6>
+                <br>
+                <h6 class="font-size-large">MESSAGE</h6>
+                <br>
                 <input type="text" class="message-text-area">
+                <br>
+                <br>
                 <input type="button" value="SEND" class="send-button-sizer orange-background white-text" />
             </div>
             <div class="page-bottom-container page-bottom-rectangle">
