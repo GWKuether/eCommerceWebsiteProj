@@ -38,7 +38,7 @@ html {
     text-decoration: none;
 }
 
-.cara-cara-logo{
+.orange-background{
     background-color: #BF7631;
 }
 
@@ -54,7 +54,7 @@ html {
 
 .searchbar-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -90,4 +90,65 @@ background-color: #000000;
 .coverphoto-container{
     display: flex;
     justify-content: center;
+}
+
+.about-us-image-sizer{
+    width: 200px;
+    padding: 4px;
+}
+
+.about-us-container{
+    display: flex;
+}
+
+.about-us-inner-container{
+    display: flex;
+}
+
+.product-image-sizer{
+    height: 200px;
+    width: 200px;
+    padding: 4px;
+}
+
+.product-container-1{
+    display: flex;
+}
+
+.product-container-2{
+    display: flex;
+}
+
+.product-container-3{
+    display: flex;
+}
+
+.contact-us-container{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.email-text-area{
+    width: 300px;
+}
+
+.message-text-area{
+    height: 100px;
+}
+
+.send-button-sizer{
+    width: 50px;
+    padding: 0;
+    border: none;
+}
+
+.page-bottom-container{
+    display: flex;
+}
+
+.page-bottom-rectangle{
+    width: 100%;
+    background-color: #BF7631;
 }
